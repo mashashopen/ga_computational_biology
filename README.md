@@ -1,6 +1,6 @@
 # ga_computational_biology
 
-The executable file can be found here: https://drive.google.com/drive/folders/1bCdr7zUY2u54nNIl_nL4_XPX-U1-tg3j
+The executable files can be found here: https://drive.google.com/drive/folders/1bCdr7zUY2u54nNIl_nL4_XPX-U1-tg3j
 
 to see results for the standard genetic algorithm, run main.exe from directory: seif_A  
 to see results for the Lamarkian approach for genetic algorithm, run main.exe from directory: seif_B_lamark   
