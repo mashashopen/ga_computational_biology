@@ -91,7 +91,6 @@ class DecryptTextGA:
     def calculate_key_fitness(self, text):
         letters = self.generate_ngrams(text, 1)
         pairs = self.generate_ngrams(text, 2)
-        word_freq = 0
 
         letter_fitness = 0
         for letter in letters:
@@ -103,10 +102,6 @@ class DecryptTextGA:
             frequency = self.pair_frequency[pair]
             pair_fitness += frequency
 
-        #words = text.split()
-        #for word in words:
-        #    if word in self.dict_words:
-        #        word_freq += 0.5
 
         fitness = (letter_fitness * self.letter_weight) + (pair_fitness * self.pair_weight)
         return fitness
